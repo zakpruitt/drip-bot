@@ -1,6 +1,6 @@
 import { SlashCommandBuilder, CommandInteraction, PermissionsBitField, ThreadChannel } from 'discord.js';
 import { CommandInterface } from './command.interface';
-import { applicationForumId, applicationForumWebhookId } from '../config/env';
+import { applicationForumId } from '../config/env';
 import applicationTagIds from "../config/applicationTagIds";
 
 const acceptApplicantCommand: CommandInterface = {
