@@ -1,0 +1,1 @@
+{"version":3,"file":"tagIds.js","sourceRoot":"","sources":["../../src/config/tagIds.ts"],"names":[],"mappings":";;AACA,MAAM,MAAM,GAA8B;IACtC,WAAW,EAAE,qBAAqB;IAClC,QAAQ,EAAE,qBAAqB;IAC/B,gBAAgB,EAAE,qBAAqB;IACvC,QAAQ,EAAE,qBAAqB;IAC/B,KAAK,EAAE,qBAAqB;CAC/B,CAAC;AAEF,kBAAe,MAAM,CAAC"}
