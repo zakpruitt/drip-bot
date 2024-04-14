@@ -1,9 +1,10 @@
-import { Client, GatewayIntentBits } from 'discord.js';
-import { token } from './config/env';
-import { handleCommand } from "./commandHandler";
-import { registerCommands } from './restClient';
+import {Client, GatewayIntentBits} from 'discord.js';
+import {token} from './config/env';
+import {handleCommand} from "./commandHandler";
+import {registerCommands} from './restClient';
+import {setupListeners} from "./listenerHandler";
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]});
 
 client.on('ready', async () => {
     if (!client.user) {
@@ -15,6 +16,7 @@ client.on('ready', async () => {
 });
 
 client.on('interactionCreate', handleCommand);
+setupListeners(client);
 
 client.login(token)
     .then(() => console.log('Logged in successfully!'))
