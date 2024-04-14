@@ -1,0 +1,23 @@
+{
+  "name": "drip-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bot.js",
+    "dev": "nodemon --exec npx ts-node src/bot.ts' --exec 'ts-node' src/bot.ts",
+    "build-start": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "discord.js": "^14.12.1",
+    "dotenv": "^16.4.5"
+  }
+}
