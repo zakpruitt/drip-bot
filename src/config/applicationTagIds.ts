@@ -1,4 +1,3 @@
-
 const applicationTagIds: { [key: string]: string } = {
     "in-review": "1228944006038421505",
     "closed": "1228943712961429514",

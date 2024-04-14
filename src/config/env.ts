@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { Snowflake } from 'discord.js';
+import {Snowflake} from 'discord.js';
 
 dotenv.config();
 
