@@ -1,1 +1,0 @@
-{"version":3,"file":"applicationTagIds.js","sourceRoot":"","sources":["../../src/config/applicationTagIds.ts"],"names":[],"mappings":";;AAAA,MAAM,iBAAiB,GAA8B;IACjD,WAAW,EAAE,qBAAqB;IAClC,QAAQ,EAAE,qBAAqB;IAC/B,gBAAgB,EAAE,qBAAqB;IACvC,QAAQ,EAAE,qBAAqB;IAC/B,KAAK,EAAE,qBAAqB;CAC/B,CAAC;AAEF,kBAAe,iBAAiB,CAAC"}
