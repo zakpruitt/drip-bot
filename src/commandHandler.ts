@@ -3,12 +3,14 @@ import {CommandInterface} from "./commands/command.interface";
 import pingCommand from "./commands/pingCommand";
 import acceptApplicantCommand from "./commands/acceptApplicantCommand";
 import denyApplicantCommand from "./commands/denyApplicantCommand";
+import awakenCommand from "./commands/awakenCommand";
 
 export const commands = new Collection<string, CommandInterface>();
 
 commands.set(pingCommand.data.name, pingCommand);
 commands.set(denyApplicantCommand.data.name, denyApplicantCommand);
 commands.set(acceptApplicantCommand.data.name, acceptApplicantCommand);
+commands.set(awakenCommand.data.name, awakenCommand);
 
 export async function handleCommand(interaction: Interaction) {
     if (interaction.isCommand()) {
